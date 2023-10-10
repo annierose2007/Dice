@@ -28,7 +28,7 @@ void setup() {
 }
 
 void draw() {
-  background(179, 164, 214);
+  background(255);
   totalSum = 0;  // Reset the total sum before each draw
 
   // Call show methods for each die instance and calculate the total sum
