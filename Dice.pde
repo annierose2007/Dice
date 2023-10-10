@@ -60,6 +60,7 @@ void draw() {
   totalSum += die9.rolled;
 
   fill(0);
+textSize(50);
   text("Total: " + totalSum, 190, 450);
 }
 
