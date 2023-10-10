@@ -86,13 +86,14 @@ class Die {
   void roll(){
     rolled = (int)(Math.random()*6)+1;
   }
-  void show() {
-    fill(194,166,211);
-    rect(myX, myY, 100, 100);
-    fill(242,200,245);
-    if (rolled == 1){
-      ellipse(myX + 50,myY + 50,20,20);
-    }
+ void show() {
+    fill(255,219,219);
+    rect(myX, myY, 100, 100);
+    fill(222,119,119);
+    if (rolled == 1){
+      ellipse(myX + 50,myY + 50,20,20);
+      dienum = 1;
+    }
     else if (rolled == 2){
       ellipse(myX+25, myY +75, 20,20);
       ellipse(myX +75, myY +25, 20,20);
